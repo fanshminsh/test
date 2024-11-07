@@ -1,0 +1,55 @@
+{
+  "name": "cm1_jes",
+  "title": "Восторг Межпространств",
+  "description": "<p><img style=\"display:block;margin-left:auto;margin-right:auto\" src=\"worlds/cm1_jes/assets/art/Ev_ENjDUUAMB3HR.webp\" width=\"500\" height=\"281\" /></p>",
+  "authors": [
+    "Laaru - adaptation for FVTT"
+  ],
+  "url": "https://boosty.to/laaru",
+  "flags": {},
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.9.0",
+  "compatibleCoreVersion": "9.269",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "label": "Секреты Крепости Свечей",
+      "type": "JournalEntry",
+      "name": "sekrety-kreposti-svechej",
+      "path": "packs/sekrety-kreposti-svechej.db",
+      "system": "dnd5e",
+      "package": "world",
+      "entity": "JournalEntry",
+      "private": false
+    }
+  ],
+  "system": "dnd5e",
+  "dependencies": [
+    {
+      "name": "Monk's Active Tile Triggers",
+      "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+      "version": "",
+      "author": "IronMonk",
+      "type": "module"
+    },
+    {
+      "name": "Сборник книг для искателей приключений",
+      "manifest": "https://www.dropbox.com/s/fwfrikh5ypav1v1/module.json?dl=1",
+      "version": "",
+      "author": "Laaru",
+      "type": "module"
+    }
+  ],
+  "socket": false,
+  "manifest": "https://www.dropbox.com/scl/fi/1o6ji8zxiyfnkrmq00imi/world.json?rlkey=rout3ya2jahx3cx9cs9w5dfa8&dl=1",
+  "download": "https://www.dropbox.com/scl/fi/hi2vdjiw1m6p7dnn6h3ts/cm1_jes.zip?rlkey=mvd557cud0g29c0l6bmfwvlvf&dl=1",
+  "protected": false,
+  "background": "worlds/cm1_jes/assets/art/candlekeepfullcover.jpg",
+  "coreVersion": "9.269",
+  "resetKeys": false,
+  "safeMode": false,
+  "systemVersion": "1.6.3"
+}
